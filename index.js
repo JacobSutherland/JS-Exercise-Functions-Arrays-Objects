@@ -17,8 +17,6 @@ function addNumbers(num1, num2) {
 }
 
 // ⭐️ Example Challenge end ⭐️
-
-
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -39,9 +37,15 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
+function makePersonObject(id, name, email) {
+  const  obj = {
+  id: id,
+  name: name,
+  email: email
+  }
+  return obj;
 }
+
 
 /**
  * ### Challenge `getName`
@@ -76,10 +80,6 @@ function getName(/* code here */) {
 function makeSmartPerson(/* code here */) {
   /* code here */
 }
-
-
-
-
 
 /*
 // ⭐️ Example Test Data ⭐️
